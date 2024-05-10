@@ -1,0 +1,29 @@
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+
+  margin-block: 29px 30px;
+}
+
+span#new-price {
+  font-family: Fraunces, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #3d8168;
+}
+
+span#old-price {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #6c7289;
+  text-decoration-line: line-through;
+}
+
+@media only screen and (max-width: 600px) {
+  .price-container {
+    margin-block: 24px 20px;
+  }
+}
